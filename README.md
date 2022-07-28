@@ -1,6 +1,6 @@
 # Artificial Intelligence & Machine Learning
 Professional Certificate
-HAAS School of Business
+Haas School of Business
 University of California, Berkeley
 
 Hello World.
