@@ -150,3 +150,6 @@ Feature: race 	 Score:-0.033796467119041725
 <br>Feature: metformin-pioglitazone 	 Score:-0.0028793596105040455
 <br>Feature: change 	 Score:-0.046693629295805776
 <br>Feature: diabetesMed 	 Score:0.2760422737557418
+<br><img src="https://awesomescreenshot.s3.amazonaws.com/image/3446742/31431825-7ee92e560ab411fbdd023b42739ba9bb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220816%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220816T185851Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=a174c2b457274f40ffabe6cab4f16250d08c83d6d4ec43054d0a02683772f195"><br><br>
+
+<hr><br><br>
