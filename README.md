@@ -76,13 +76,13 @@ Our dataset is comprised of various features including demographics, relevant em
 + <b>change</b> - Indicates if there was a change in diabetic medications (either dosage or generic name). Values: “change” and “no change”
 + <b>diabetesMed</b> - Indicates if there was any diabetic medication prescribed. Values: “yes” and “no”
 <br><br>
-  <h3>Understanding the Data</h3>
+ <h3>Understanding the Data</h3>
 From our data source, we are presented with various data from over 10 years of clinical care at 130 US hospitals and integrated delivery networks. It includes over 40 features representing patient and hospital outcomes. Information was extracted from the database for encounters that satisfied the following criteria:
 
-It is an inpatient encounter (a hospital admission).
-It is a diabetic encounter, that is, one during which any kind of diabetes was entered to the system as a diagnosis.
-The length of stay was at least 1 day and at most 14 days.
-Laboratory tests were performed during the encounter.
-Medications were administered during the encounter.
-The data contains such attributes as patient number, race, gender, age, admission type, time in hospital, medical specialty of admitting physician, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc.
++ It is an inpatient encounter (a hospital admission).
++It is a diabetic encounter, that is, one during which any kind of diabetes was entered to the system as a diagnosis.
++The length of stay was at least 1 day and at most 14 days.
++Laboratory tests were performed during the encounter.
++Medications were administered during the encounter.
++The data contains such attributes as patient number, race, gender, age, admission type, time in hospital, medical specialty of admitting physician, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc.
 
