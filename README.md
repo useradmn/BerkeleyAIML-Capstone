@@ -86,8 +86,8 @@ From our data source, we are presented with various data from over 10 years of c
 + Medications were administered during the encounter.
 + The data contains such attributes as patient number, race, gender, age, admission type, time in hospital, medical specialty of admitting physician, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc.
 <hr><br><br>
-<h2>Modeling<h3>
- <b>A baseline analysis:</b>
+<h2>Modeling<h3><br>
+<b>A baseline analysis:</b><br>
 Training time :[0.0029990673065185547]
 Training accuracy :[0.4976837554045707]
 Test accuracy :[0.49924664264657714]
@@ -106,47 +106,47 @@ AUC score : 0.6034773037012175
  <br>
  <h3>Feature Importance</h3>
 Feature: race 	 Score:-0.033796467119041725
-Feature: gender 	 Score:0.05220811772492702
-Feature: age 	 Score:0.0029344954582298266
-Feature: admission_type_id 	 Score:0.032138882815709854
-Feature: discharge_disposition_id 	 Score:-0.012756074107160375
-Feature: admission_source_id 	 Score:0.005697368221586632
-Feature: time_in_hospital 	 Score:0.015309280096100903
-Feature: medical_specialty 	 Score:0.0009692045401855414
-Feature: num_lab_procedures 	 Score:0.0009561158077616839
-Feature: num_procedures 	 Score:-0.04584900082060058
-Feature: num_medications 	 Score:0.0009861661339249123
-Feature: number_outpatient 	 Score:0.08235667848348943
-Feature: number_emergency 	 Score:0.1888097939190253
-Feature: number_inpatient 	 Score:0.3728662559579259
-Feature: diag_1 	 Score:-0.00013084404297845518
-Feature: diag_2 	 Score:-0.00016948616423528032
-Feature: diag_3 	 Score:3.229928653600553e-05
-Feature: number_diagnoses 	 Score:0.08312833535252362
-Feature: max_glu_serum 	 Score:-0.0191027671164415
-Feature: A1Cresult 	 Score:-0.02281927899061262
-Feature: metformin 	 Score:-0.11773066366763427
-Feature: repaglinide 	 Score:-0.016584307605706474
-Feature: nateglinide 	 Score:-0.19847540350258402
-Feature: chlorpropamide 	 Score:-0.2624410900601061
-Feature: glimepiride 	 Score:-0.02035639009589943
-Feature: acetohexamide 	 Score:0.004290645238704124
-Feature: glipizide 	 Score:0.06904377139404178
-Feature: glyburide 	 Score:0.007883757005958742
-Feature: tolbutamide 	 Score:-0.023482659033740666
-Feature: pioglitazone 	 Score:0.0760129295032895
-Feature: rosiglitazone 	 Score:0.06253838495541769
-Feature: acarbose 	 Score:-0.16133545826556323
-Feature: miglitol 	 Score:-0.3045983331251128
-Feature: troglitazone 	 Score:0.004864037064982501
-Feature: tolazamide 	 Score:-0.00474502797746427
-Feature: examide 	 Score:0.0
-Feature: citoglipton 	 Score:0.0
-Feature: insulin 	 Score:-0.0677520106092102
-Feature: glyburide-metformin 	 Score:-0.14107438654274135
-Feature: glipizide-metformin 	 Score:0.004826525999850238
-Feature: glimepiride-pioglitazone 	 Score:0.003183159044823325
-Feature: metformin-rosiglitazone 	 Score:-0.0030582987827478575
-Feature: metformin-pioglitazone 	 Score:-0.0028793596105040455
-Feature: change 	 Score:-0.046693629295805776
-Feature: diabetesMed 	 Score:0.2760422737557418
+<br>Feature: gender 	 Score:0.05220811772492702
+<br>Feature: age 	 Score:0.0029344954582298266
+<br>Feature: admission_type_id 	 Score:0.032138882815709854
+<br>Feature: discharge_disposition_id 	 Score:-0.012756074107160375
+<br>Feature: admission_source_id 	 Score:0.005697368221586632
+<br>Feature: time_in_hospital 	 Score:0.015309280096100903
+<br>Feature: medical_specialty 	 Score:0.0009692045401855414
+<br>Feature: num_lab_procedures 	 Score:0.0009561158077616839
+<br>Feature: num_procedures 	 Score:-0.04584900082060058
+<br>Feature: num_medications 	 Score:0.0009861661339249123
+<br>Feature: number_outpatient 	 Score:0.08235667848348943
+<br>Feature: number_emergency 	 Score:0.1888097939190253
+<br>Feature: number_inpatient 	 Score:0.3728662559579259
+<br>Feature: diag_1 	 Score:-0.00013084404297845518
+<br>Feature: diag_2 	 Score:-0.00016948616423528032
+<br>Feature: diag_3 	 Score:3.229928653600553e-05
+<br>Feature: number_diagnoses 	 Score:0.08312833535252362
+<br>Feature: max_glu_serum 	 Score:-0.0191027671164415
+<br>Feature: A1Cresult 	 Score:-0.02281927899061262
+<br>Feature: metformin 	 Score:-0.11773066366763427
+<br>Feature: repaglinide 	 Score:-0.016584307605706474
+<br>Feature: nateglinide 	 Score:-0.19847540350258402
+<br>Feature: chlorpropamide 	 Score:-0.2624410900601061
+<br>Feature: glimepiride 	 Score:-0.02035639009589943
+<br>Feature: acetohexamide 	 Score:0.004290645238704124
+<br>Feature: glipizide 	 Score:0.06904377139404178
+<br>Feature: glyburide 	 Score:0.007883757005958742
+<br>Feature: tolbutamide 	 Score:-0.023482659033740666
+<br>Feature: pioglitazone 	 Score:0.0760129295032895
+<br>Feature: rosiglitazone 	 Score:0.06253838495541769
+<br>Feature: acarbose 	 Score:-0.16133545826556323
+<br>Feature: miglitol 	 Score:-0.3045983331251128
+<br>Feature: troglitazone 	 Score:0.004864037064982501
+<br>Feature: tolazamide 	 Score:-0.00474502797746427
+<br>Feature: examide 	 Score:0.0
+<br>Feature: citoglipton 	 Score:0.0
+<br>Feature: insulin 	 Score:-0.0677520106092102
+<br>Feature: glyburide-metformin 	 Score:-0.14107438654274135
+<br>Feature: glipizide-metformin 	 Score:0.004826525999850238
+<br>Feature: glimepiride-pioglitazone 	 Score:0.003183159044823325
+<br>Feature: metformin-rosiglitazone 	 Score:-0.0030582987827478575
+<br>Feature: metformin-pioglitazone 	 Score:-0.0028793596105040455
+<br>Feature: change 	 Score:-0.046693629295805776
+<br>Feature: diabetesMed 	 Score:0.2760422737557418
