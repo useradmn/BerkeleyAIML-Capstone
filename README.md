@@ -86,20 +86,20 @@ From our data source, we are presented with various data from over 10 years of c
 + Medications were administered during the encounter.
 + The data contains such attributes as patient number, race, gender, age, admission type, time in hospital, medical specialty of admitting physician, number of lab test performed, HbA1c test result, diagnosis, number of medication, diabetic medications, number of outpatient, inpatient, and emergency visits in the year before the hospitalization, etc.
 <hr><br><br>
-<h2>Modeling<h3><br>
-<b>A baseline analysis:</b><br>
-Training time :[0.0029990673065185547]
-Training accuracy :[0.4976837554045707]
-Test accuracy :[0.49924664264657714]
-Accuracy score : Not Yet Available
+<h2>Modeling</h2><br>
+A baseline analysis:<br>
+Training time :[0.0029990673065185547]<br>
+Training accuracy :[0.4976837554045707]<br>
+Test accuracy :[0.49924664264657714]<br>
+Accuracy score : Not Yet Available<br>
 AUC score : Not Yet Available<br><br>
 #################LOGISTIC REGRESSION ANALYSIS##########
 
-Training time :3.8975634574890137
-Training accuracy :0.6180582851367287
-Test accuracy :0.6188994431706518
-Accuracy score : 0.6188994431706518
-AUC score : 0.6034773037012175
+Training time :3.8975634574890137<br>
+Training accuracy :0.6180582851367287<br>
+Test accuracy :0.6188994431706518<br>
+Accuracy score : 0.6188994431706518<br>
+AUC score : 0.6034773037012175<br>
 
 ######################################################<br><br>
  <img src="https://awesomescreenshot.s3.amazonaws.com/image/3446742/31431676-490548cfd16b6a5484cd60a39f153edb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220816%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220816T185414Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=5c161a76e8fa5289725b93f343fa452796a4843e650621345637564c52d32786">
