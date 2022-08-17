@@ -154,4 +154,1051 @@ Feature: race 	 Score:-0.033796467119041725
 <img src="https://awesomescreenshot.s3.amazonaws.com/image/3446742/31431825-7ee92e560ab411fbdd023b42739ba9bb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220816%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220816T185851Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=a174c2b457274f40ffabe6cab4f16250d08c83d6d4ec43054d0a02683772f195"><br><br>
 <hr><br><br>
 <h3>Decision Tree Coefficients</h3>
-<img src="https://awesomescreenshot.s3.amazonaws.com/image/3446742/31464314-e6073327166ea16281fbfc3c89e65253.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220817T142446Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=cfa1dfefa0a26b01fb1ed539e52e3c2b7ab5d4ee917415d0ab2bf17609cef2e3"><br>
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/3446742/31464314-e6073327166ea16281fbfc3c89e65253.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220817%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220817T142446Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=cfa1dfefa0a26b01fb1ed539e52e3c2b7ab5d4ee917415d0ab2bf17609cef2e3"><br><hr><br>
+<h3>Counterfactual Explanations</h3>
+<br><br>
+ <style id="Book1_7922_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl157922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl657922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl667922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid #CCCCCC;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl677922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid #CCCCCC;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl687922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:.5pt solid windowtext;
+	background:#F4B084;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl697922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl707922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl717922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:.5pt solid windowtext;
+	background:#F4B084;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl727922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl737922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:.5pt solid windowtext;
+	background:#FFD966;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl747922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl757922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#ACB9CA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl767922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:none;
+	background:#ACB9CA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl777922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:none;
+	background:#ACB9CA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl787922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl797922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid #CCCCCC;
+	background:#F4B084;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl807922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl817922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid #CCCCCC;
+	border-left:1.0pt solid #CCCCCC;
+	background:#FFD966;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl827922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl837922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl847922
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #CCCCCC;
+	border-right:1.0pt solid #CCCCCC;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+-->
+</style>
+
+<div id="Book1_7922" align=center x:publishsource="Excel">
+
+<h1 style='color:black;font-family:Calibri;font-size:14.0pt;font-weight:800;
+font-style:normal'>Counterfactual Explanations</h1>
+
+<table border=0 cellpadding=0 cellspacing=0 width=612 style='border-collapse:
+ collapse;table-layout:fixed;width:460pt'>
+ <col width=161 style='mso-width-source:userset;mso-width-alt:5888;width:121pt'>
+ <col class=xl707922 width=117 style='mso-width-source:userset;mso-width-alt:
+ 4278;width:88pt'>
+ <col class=xl707922 width=214 style='mso-width-source:userset;mso-width-alt:
+ 7826;width:161pt'>
+ <col class=xl657922 width=120 style='mso-width-source:userset;mso-width-alt:
+ 4388;width:90pt'>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl747922 width=161 style='height:15.75pt;width:121pt'>&nbsp;</td>
+  <td class=xl757922 width=117 style='width:88pt'>Original Outcome</td>
+  <td colspan=2 class=xl767922 width=334 style='border-right:1.0pt solid black;
+  width:251pt'>Diverse Counterfactual Outcome</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;width:121pt;
+  overflow:hidden;padding-bottom:2px;padding-top:2px'>&nbsp;</td>
+  <td class=xl717922 width=117 style='width:88pt;overflow:hidden;padding-bottom:
+  2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">READMITTED</td>
+  <td class=xl687922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">READMITTED</td>
+  <td class=xl797922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">READMITTED</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl807922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;readmitted&quot;}">readmitted</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">TRUE</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">FALSE</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">FALSE</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;gender&quot;}">gender</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;age&quot;}">age</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:65}">65</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:65}">65</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:65}">65</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;admission_type_id&quot;}">admission_type_id</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;discharge_disposition_id&quot;}">discharge_disposition_id</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;admission_source_id&quot;}">admission_source_id</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:7}">7</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:7}">7</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:7}">7</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;time_in_hospital&quot;}">time_in_hospital</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4}">4</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4}">4</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:4}">4</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;medical_specialty&quot;}">medical_specialty</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:71}">71</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:71}">71</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:71}">71</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;num_lab_procedures&quot;}">num_lab_procedures</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:37}">37</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:37}">37</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:37}">37</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;num_procedures&quot;}">num_procedures</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl737922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:6}">6</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;num_medications&quot;}">num_medications</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:15}">15</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;number_outpatient&quot;}">number_outpatient</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;number_emergency&quot;}">number_emergency</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;number_inpatient&quot;}">number_inpatient</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3}">3</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3}">3</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:3}">3</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;diag_1&quot;}">diag_1</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:329}">329</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:329}">329</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:329}">329</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;diag_2&quot;}">diag_2</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}">333</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}">333</td>
+  <td class=xl817922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:672.6}">672.6</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;diag_3&quot;}">diag_3</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:246}">246</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:246}">246</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:246}">246</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;number_diagnoses&quot;}">number_diagnoses</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:9}">9</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:9}">9</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:9}">9</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;max_glu_serum&quot;}">max_glu_serum</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;A1Cresult&quot;}">A1Cresult</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;metformin&quot;}">metformin</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;repaglinide&quot;}">repaglinide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:2}">2</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;nateglinide&quot;}">nateglinide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;chlorpropamide&quot;}">chlorpropamide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glimepiride&quot;}">glimepiride</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acetohexamide&quot;}">acetohexamide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glipizide&quot;}">glipizide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glyburide&quot;}">glyburide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;tolbutamide&quot;}">tolbutamide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;pioglitazone&quot;}">pioglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;rosiglitazone&quot;}">rosiglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acarbose&quot;}">acarbose</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;miglitol&quot;}">miglitol</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;troglitazone&quot;}">troglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl737922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;tolazamide&quot;}">tolazamide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;examide&quot;}">examide</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;citoglipton&quot;}">citoglipton</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;insulin&quot;}">insulin</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glyburide-metformin&quot;}">glyburide-metformin</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glipizide-metformin&quot;}">glipizide-metformin</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;glimepiride-pioglitazone&quot;}">glimepiride-pioglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;metformin-rosiglitazone&quot;}">metformin-rosiglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;metformin-pioglitazone&quot;}">metformin-pioglitazone</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;change&quot;}">change</td>
+  <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  <td class=xl667922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl827922 width=161 style='height:15.75pt;border-top:none;
+  width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;diabetesMed&quot;}">diabetesMed</td>
+  <td class=xl837922 width=117 style='border-top:none;width:88pt;overflow:hidden;
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl847922 width=214 style='border-top:none;width:161pt;overflow:
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  <td class=xl677922 width=120 style='border-top:none;border-left:none;
+  width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=161 style='width:121pt'></td>
+  <td width=117 style='width:88pt'></td>
+  <td width=214 style='width:161pt'></td>
+  <td width=120 style='width:90pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+ 
