@@ -159,15 +159,18 @@ Feature: race 	 Score:-0.033796467119041725
 	
 	
 
-<div id="Book1_7922" align=center x:publishsource="Excel">
+
 
 <h1 style='color:black;font-family:Calibri;font-size:14.0pt;font-weight:800;
 font-style:normal'>Counterfactual Explanations</h1><br>
-Using counterfactual explanations, leveraging the DICE ML made available to us <a href="https://github.com/interpretml/DiCE" target="_blank">here</a> - we were able to identify what needs to happen to reduce the chance of a diabetic patient being readmitted within 60 days after their original encounter. In our table below we can see the following:
+
+Using counterfactual explanations, we leverage DICE ML made available to us <a href="https://github.com/interpretml/DiCE" target="_blank">here</a> - we were able to identify what needs to happen to reduce the chance of a diabetic patient being readmitted within 60 days after their original encounter. In our table below we can see the following: 	
 + There is a suggestion of the Number of Procedures be elevated. However, we may discard this as we do not want to cause harm to patients with unnecessary procedures.
 + There is a suggestion at Diagnosis 2 be modified. As recommended by our model, the patient's primary care physician and/or endrocrinologist should seek to relieve the patient of this diagnosis where possible. Perhaps there is better care or treatment that can be given to bring patient to wellness, away from this diagnosis.
 + There is a suggestion that the medical drug Troglitazone by leveraged where it is safe for use, and as approved by the physician. The model is suggesting that use of this drug may affect the outcome of readmittance. 	
 
+
+<div id="Book1_7922" align=center x:publishsource="Excel">
 <br><br>
 
 <table border=0 cellpadding=0 cellspacing=0 width=612 style='border-collapse:
@@ -185,7 +188,8 @@ Using counterfactual explanations, leveraging the DICE ML made available to us <
   <td colspan=2 class=xl767922 width=334 style='border-right:1.0pt solid black;
   width:251pt'>Diverse Counterfactual Outcome</td>
  </tr>
- <tr height=21 style='height:15.75pt'>
+
+<tr height=21 style='height:15.75pt'>
   <td height=21 class=xl787922 width=161 style='height:15.75pt;width:121pt;
   overflow:hidden;padding-bottom:2px;padding-top:2px'>&nbsp;</td>
   <td class=xl717922 width=117 style='width:88pt;overflow:hidden;padding-bottom:
@@ -194,19 +198,19 @@ Using counterfactual explanations, leveraging the DICE ML made available to us <
   hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">READMITTED</td>
   <td class=xl797922 width=120 style='border-top:none;border-left:none;
   width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">READMITTED</td>
- </tr>
+      data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">READMITTED</td>
+</tr>
  <tr height=21 style='height:15.75pt'>
   <td height=21 class=xl807922 width=161 style='height:15.75pt;border-top:none;
   width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;readmitted&quot;}">readmitted</td>
+      data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;readmitted&quot;}"><b>Readmitted</b></td>
   <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
-  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">TRUE</td>
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}"><b>TRUE</b></td>
   <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
-  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">FALSE</td>
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>FALSE</b></td>
   <td class=xl667922 width=120 style='border-top:none;border-left:none;
   width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">FALSE</td>
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>FALSE</b></td>
  </tr>
  <tr height=21 style='height:15.75pt'>
   <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
