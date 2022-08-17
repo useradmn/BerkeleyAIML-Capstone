@@ -313,12 +313,12 @@ Using counterfactual explanations, we leverage DICE ML made available to us <a h
   width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
   data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;num_procedures&quot;}">num_procedures</td>
   <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
-  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>0</b></td>
   <td class=xl737922 width=214 style='border-top:none;width:161pt;overflow:
-  hidden;padding-bottom:2px;padding-top:2px;' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:6}">6</td>
+  hidden;padding-bottom:2px;padding-top:2px;' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:6}"><b>6</b></td>
   <td class=xl667922 width=120 style='border-top:none;border-left:none;
   width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>0</b></td>
  </tr>
  <tr height=21 style='height:15.75pt'>
   <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
@@ -385,12 +385,12 @@ Using counterfactual explanations, we leverage DICE ML made available to us <a h
   width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
   data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;diag_2&quot;}">diag_2</td>
   <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
-  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}">333</td>
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}"><b>333</b></td>
   <td class=xl697922 width=214 style='border-top:none;width:161pt;overflow:
-  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}">333</td>
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:333}"><b>333</b></td>
   <td class=xl817922 width=120 style='border-top:none;border-left:none;
   width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:672.6}">672.6</td>
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:672.6}"><b>672.6</b></td>
  </tr>
  <tr height=21 style='height:15.75pt'>
   <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
@@ -601,12 +601,12 @@ Using counterfactual explanations, we leverage DICE ML made available to us <a h
   width:121pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
   data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;troglitazone&quot;}">troglitazone</td>
   <td class=xl727922 width=117 style='border-top:none;width:88pt;overflow:hidden;
-  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>0</b></td>
   <td class=xl737922 width=214 style='border-top:none;width:161pt;overflow:
-  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}">1</td>
+  hidden;padding-bottom:2px;padding-top:2px' data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:1}"><b>1</b></td>
   <td class=xl667922 width=120 style='border-top:none;border-left:none;
   width:90pt;overflow:hidden;padding-bottom:2px;padding-top:2px'
-  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}">0</td>
+  data-sheets-value="{&quot;1&quot;:3,&quot;3&quot;:0}"><b>0</b></td>
  </tr>
  <tr height=21 style='height:15.75pt'>
   <td height=21 class=xl787922 width=161 style='height:15.75pt;border-top:none;
