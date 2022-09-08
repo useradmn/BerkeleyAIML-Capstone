@@ -1,5 +1,6 @@
 # Capstone: Artificial Intelligence & Machine Learning
-Professional Certificate &#8226; Berkeley School of Engineering & Berkeley, Haas School of Business<br>
+Professional Certificate<br>
+Berkeley School of Engineering & Berkeley, Haas School of Business<br>
 UNIVERSITY OF CALIFORNIA, BERKELEY
 <hr>
 
