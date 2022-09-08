@@ -6,17 +6,15 @@ UNIVERSITY OF CALIFORNIA, BERKELEY
 <hr>
 
 <img align="center" src="https://www.signitysolutions.com/blog/wp-content/uploads/2020/09/artificial-intelligence-in-healthcare-sector.jpg">
-<b>Overview:</b> In this capstone, my goal is to do the heavy lifting of the project. I will explore my data source, testa a few of the techniqueues, and com up with a solution or answer to my research problem. HTML version of notebook is <a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">available here. </a>
+
+
+<h2>Executive Brief:</h2> In this capstone, my goal is to do the heavy lifting of the project. I will explore my data source, test a few of the techniques, and come up with a solution or answer to my research problem. HTML version of notebook is <a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">available here. </a>
 
 
 
 <h3>Research Problem</h3>
 
-Hospitals are slammed with readmissions of patients. Specifically, data has been collected related to readmisssion as well as other outcomes pertaining to patients with diabetes. What can we do to reduce these readmissions and possibly improve patient health?
-
-<h3>Data Source</h3>
-
-https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008 (Links to an external site.) - This data was donated in 2014 and is a collection of the past 6 years.
+Hospitals are slammed with readmissions of patients. Specifically, data has been collected related to readmisssion as well as other outcomes pertaining to patients with diabetes. What can we do to reduce these readmissions and possibly improve patient health?<br>
 <h3>Modeling Techniques To Be Used:</h3>
 Multi-class classification using one of Logistic Regression or Decision Trees, Counterfactual technique
 <h3>Expected Results</h3>
@@ -25,6 +23,24 @@ I am expecting to find what are the important things (features) that contribute 
 <h3>Why This Question Is Important</h3>
 
 This question is important because individuals are being readmitted to hospitals for the same things. Particularly, in this case, these are diabetic patients. Diabetes is morbidity that needs to be watched closely and coupled with other issues that can lead to complexity and/or fatality. Thus, perhaps we can provide recommendations on changes to 1) keep the patient healthier and 2) keep readmissions down amongst diabetic patients.
+
+<h3>Important Findings</h3>
+The use of counterfactual explanations was very critical to our desired outcome and has yielded favorably to our expected results. We leveraged DICE ML and were abel to identify what needs to happen in order to reduce the chance of a diabetic patient being readmitted within 60 days after their original encounter. Some of our important findings include <i>(but not limited to)</i>:
++ There are clinicial diagnosis that are actionable. A patient's primary care physician and/or endocrinologist shoudl seek to relieve the patient of this diagnosis where possible. Perhaps there is better care or treatement that can be given to bring the patient to wellness and away from this diagnosis.
++ Some drugs being used to managed a patient's blood sugar levels may not be optimal. Our counterfactual explanations modeling is able to robustly identify another drug that may provide better efficacy in blood sugar level management. 
+
+<h3>Suggestions For Next Steps</h3>
+Wellness of diabetic patients is a goal that modern medicine is aiming to achieve and make equitable for patients of all backgrounds. Through the use of Artificial Intelligence & Machine Learning, we have shown where we can achieve ground-breaking intelligence into improving patient care and wellness. However, gaps remain. As you will see in our dataset and visuals, the lion's share of records belong to single racial group. Traditionally, medicine has been developed and tested with bias to this same racial group. In order to deliver equitable care, modern medicine must include medicine research that considers "...the genetic factors that underlie varying responses to medicines observed among different ethnic and racial groups." With this consideration being made and incorporated into pharmaceutical treatment, our deliverables using counterfactual explnations will also change, for the betterment of all! 
+
+<br>[Reference: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2594139/" target="_blank">NATIONAL INSTITUTE OF HEALTH (NIH), National Library of Medicine, National Center for Biotechnology Information, Journal of the National Medical Association; 2002 Oct; 94 )10 Suppl): 1-26. </a>
+
+
+<br><hr>
+
+<h3>Data Source</h3>
+
+https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008 (Links to an external site.) - This data was donated in 2014 and is a collection of the past 6 years.
+
 
 <hr><br><br>
 Our dataset is comprised of various features including demographics, relevant emergency room encounter information, medical drug data, etc. Our features are listed below.<br><br>
