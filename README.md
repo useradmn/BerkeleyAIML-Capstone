@@ -1,6 +1,6 @@
 # Capstone: Artificial Intelligence & Machine Learning
 Professional Certificate &#8226; Berkeley School of Engineering & Berkeley, Haas School of Business<br>
-University of California, Berkeley
+UNIVERSITY OF CALIFORNIA, BERKELEY
 <hr>
 
 <img align="center" src="https://www.signitysolutions.com/blog/wp-content/uploads/2020/09/artificial-intelligence-in-healthcare-sector.jpg">
