@@ -9,7 +9,7 @@ UNIVERSITY OF CALIFORNIA, BERKELEY
 <img align="center" src="https://www.signitysolutions.com/blog/wp-content/uploads/2020/09/artificial-intelligence-in-healthcare-sector.jpg">
 
 
-<h2>Executive Brief:</h2> In this capstone, my goal is to do the heavy lifting of the project. I will explore my data source, test a few of the techniques, and come up with a solution or answer to my research problem. HTML version of notebook is with full set of visuals<a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">is available here. </a> Due to GitHub's restrictions on upload file size, the Jupyter notebook has been reduced to a manageable size which will display in the browser. For a complete view including all visuals, please see the link <a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">previously cited.</a> 
+<h2>Executive Brief:</h2> In this capstone, my goal is to do the heavy lifting of the project. I will explore my data source, test a few of the techniques, and come up with a solution or answer to my research problem. HTML version of notebook is with full set of visuals <a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">is available here. </a><br><br><i> Due to GitHub's restrictions on upload file size, the Jupyter notebook has been reduced to a manageable size which will display in the browser. For a complete view including all visuals, please see the link <a href="https://federalcomputing.com/capstoneAIML.html" target="_blank">previously cited.</a> </i>
 
 
 
