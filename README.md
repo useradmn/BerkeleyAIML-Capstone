@@ -1,4 +1,5 @@
 # Capstone: Artificial Intelligence & Machine Learning
+<b>Author: Daniel Wallace</b><br>
 Professional Certificate<br>
 Berkeley, School of Engineering <br>
 Berkeley, Haas School of Business<br>
