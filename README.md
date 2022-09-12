@@ -35,7 +35,7 @@ Wellness of diabetic patients is a goal that modern medicine is aiming to achiev
 
 Notwithstanding, gaps remain. There are social factors that ultimately influence both short-term and long-term health of patients. As you will see in our dataset and visuals, the lion's share of records belong to a single racial group. Traditionally, medicine has been developed and tested with bias to this same racial group. In order to deliver equitable care, modern medicine must include medicine research that considers "...the genetic factors that underlie varying responses to medicines observed among different ethnic and racial groups." With this consideration being made and incorporated into pharmaceutical treatment, our deliverables using counterfactual explnations will also change, for the betterment of all! 
 
-<br>[Reference: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2594139/" target="_blank">NATIONAL INSTITUTE OF HEALTH (NIH), National Library of Medicine, National Center for Biotechnology Information, Journal of the National Medical Association; 2002 Oct; 94 )10 Suppl): 1-26. </a>
+<br>[Reference: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2594139/" target="_blank">NATIONAL INSTITUTE OF HEALTH (NIH), National Library of Medicine, National Center for Biotechnology Information, Journal of the National Medical Association; 2002 Oct; 94 )10 Suppl): 1-26. </a> ]
 
 
 <br><hr>
