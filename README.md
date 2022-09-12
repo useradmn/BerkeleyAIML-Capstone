@@ -23,7 +23,7 @@ Multi-class classification using one of Logistic Regression or Decision Trees, C
 I am expecting to find what are the important things (features) that contribute to a return/readmission. From this point, perhaps use the counterfactual explanations technique to determine what can possibly be changed to get a readmission score of False.
 <h3>Why This Question Is Important</h3>
 
-This question is important because individuals are being readmitted to hospitals for the same things. Particularly, in this case, these are diabetic patients. Diabetes is morbidity that needs to be watched closely and coupled with other issues that can lead to complexity and/or fatality. Thus, perhaps we can provide recommendations on changes to 1) keep the patient healthier and 2) keep readmissions down amongst diabetic patients.
+This question is important because individuals are being readmitted to hospitals for the same things. Particularly, in this case, these are diabetic patients. Diabetes is a morbidity that needs to be watched closely and coupled with other issues that can lead to complexity and/or fatality. Thus, perhaps we can provide recommendations on changes to 1) keep the patient healthier and 2) keep readmissions down amongst diabetic patients.
 
 <h3>Important Findings</h3>
 The use of counterfactual explanations was very critical to our desired outcome and has yielded favorably to our expected results. We leveraged DICE ML and were able to identify what needs to happen in order to reduce the chance of a diabetic patient being readmitted within 60 days after their original encounter. Some of our important findings include <i>(but not limited to)</i>:<br>
